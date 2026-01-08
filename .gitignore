@@ -36,3 +36,37 @@ dist/
 *.swp
 /.vscode/
 /ca/
+
+
+# Python
+__pycache__/
+*.pyc
+
+# Env & secrets
+.env
+.env.*
+*.secret
+/run/secrets/
+
+# Docker
+docker-compose.override.yml
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+
+# Secrets (DO NOT COMMIT)
+deploy/docker/*.pem
+deploy/docker/mariadb_password
+deploy/docker/db_password.txt
+deploy/docker/encKey
+

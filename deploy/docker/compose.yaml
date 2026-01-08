@@ -45,6 +45,8 @@ services:
       PI_DB_USER: pi
       PI_DB_HOST: db
       PI_DB_NAME: pi
+      PRIVACYIDEA_PI_PREFERRED_LANGUAGE: '["en"]'
+
       # Alternatively use SQLALCHEMY_DATABASE_URI or SQLALCHEMY_DATABASE_URI_FILE
 #      SQLALCHEMY_DATABASE_URI: mysql+pymysql://pi:test123@db:3306/pi
 
